@@ -14,8 +14,11 @@ A pod follows a lifecylce, let's look at them.
 4. **Failed:** At least one container has exited with a failure (non-zero exit code).
 
 By running command ``` kubectl describe pod <pod-name> ``` we can see the lifecycle events of a pod.
+In the screenshot below, you can see the events where Pod **lifecycles** and under containers **State** of Pod are presented.
 
-#### Let's try to understand it with the help of flow
+![error](https://github.com/SalikeHassan/Kubernetes_Notes/assets/18566830/f3ec3a8e-02bc-4682-a387-45009bf9386a)
+
+#### Let's try to understand how Pod are created with the help of flow diagram.
 ![pod-lifecycle](https://github.com/SalikeHassan/Kubernetes_Notes/assets/18566830/f418ea44-3222-4f47-a48b-9b2896500dde)
 
 When we run the command to create a Pod, the following steps are performed:
