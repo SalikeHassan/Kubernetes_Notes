@@ -19,10 +19,50 @@ This structure allows for namespacing and greater control over label keys.
     - A DNS subdomain is composed of a series of DNS labels separated by dots (.).
     - Each label must start and end with an alphanumeric character with dashes allowed in between.
     - The entire prefix must not exceed 253 characters in length. Followed by a slash (/), if specified.
-  
+
+##### Pod definition with label
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: production-frontend-pod
+  labels:
+    environment: production
+    tier: frontend
+spec:
+  containers:
+  - name: frontend-container
+    image: nginx
+    ports:
+    - containerPort: 80
+```
+
+##### Pod definition with Preifx label
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: team1-app-pod
+  labels:
+    team1.example.com/role: webapp
+    team1.example.com/environment: production
+spec:
+  containers:
+  - name: app-container
+    image: nginx
+    ports:
+    - containerPort: 80
+```
+
+
+
 #### Let's try to understand the use case for Prefixes
 Consider a scenario where multiple teams are working on a project and share a Kubernetes cluster. 
 Implementing namespacing with prefixes helps prevent collisions between label keys and clarifies the scope or ownership of a label.
 
 For instance, different teams might utilize their team domain as a prefix to distinguish their labels, such as team1.example.com/role/webapp versus team2.example.com/role/webapp. 
 In the provided example, team1.example.com/role is the key, and webapp is the value, where team1.example.com is the prefix and role is the name segment.
+
+
+### Selector
+One thing to understand, Label are not like Kubernetes names and UIDS, labels do not provide uniqueness
