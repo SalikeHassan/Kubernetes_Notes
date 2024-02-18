@@ -16,20 +16,20 @@ This set of Pods can be thought of as the "backends" for the Service.
 
 ### Service Types
 ### 1. ClusterIP
-    - **What It Does:** Gives your service an internal IP address that's only accessible within the cluster. (If you don’t provide a type. It’s a default type)
-    - **Use Case:** When you want your service to be reachable only by other applications within the same Kubernetes cluster.
+- **What It Does:** Gives your service an internal IP address that's only accessible within the cluster. (If you don’t provide a type. It’s a default type)
+- **Use Case:** When you want your service to be reachable only by other applications within the same Kubernetes cluster.
 
 ### 2. NodePort
-    - **What It Does:** Exposes your service on a specific port on all the nodes in the cluster.
-    - **Use Case:** When you want to make your service accessible from outside the cluster, but at a specific port on the nodes. It's a bit like having a dedicated door in each house of a neighborhood that all lead to the same room.
+- **What It Does:** Exposes your service on a specific port on all the nodes in the cluster.
+- **Use Case:** When you want to make your service accessible from outside the cluster, but at a specific port on the nodes. It's a bit like having a dedicated door in each house of a neighborhood that all lead to the same room.
 
 ### 3. LoadBalancer
-    - **What It Does:** Uses an external load balancer (if available from your cloud provider) to distribute incoming traffic to your service.
-    - **Use Case:** When your application is hosted in a cloud environment and you want to distribute traffic evenly across all your service's pods.
+- **What It Does:** Uses an external load balancer (if available from your cloud provider) to distribute incoming traffic to your service.
+- **Use Case:** When your application is hosted in a cloud environment and you want to distribute traffic evenly across all your service's pods.
 
 ### 4. ExternalName
-    - **What It Does:** Maps the service to a DNS name instead of to a typical selector like my-service or cassandra.
-    - **Use Case:** Useful when you want to route traffic from within your cluster to an external service or database. It's like putting a shortcut on your desktop that opens a website.
+- **What It Does:** Maps the service to a DNS name instead of to a typical selector like my-service or cassandra.
+- **Use Case:** Useful when you want to route traffic from within your cluster to an external service or database. It's like putting a shortcut on your desktop that opens a website.
 
 ### How They Work
 - **ClusterIP:** is the foundation for the other types, providing a basic level of service exposure inside the cluster.
