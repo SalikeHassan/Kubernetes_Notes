@@ -100,6 +100,6 @@ spec:
               number: 80
 
 ```
-My intention is to keep the notes simple and easy to understand. For more details on Ingress and its working demo, you can check my blog. There, you can see the workings of Ingress and can follow the same steps for practice.
-
+My intention is to keep the notes simple and easy to understand. For more details on Ingress and its working demo, you can check my blog.<br>
+**Blog link: https://medium.com/@salikehassan93/mastering-kubernetes-ingress-a-simple-guide-to-learn-and-practice-ingress-using-minikube-7194851e8bf2**
 ### In upcoming notes, we'll explore the Ingress's default backend service and TLS for enhanced security and functionality.
