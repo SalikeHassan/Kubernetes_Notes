@@ -140,3 +140,20 @@ An enterprise **finance application** where pods must connect **directly** to an
    - Best for **direct connectivity** between pods and other networks or systems.
    - Pods share IPs from the VNet.
    - Example: Finance application connecting to an on-premises database.
+  
+# Designing IP Addressing for AKS
+<img width="990" alt="image" src="https://github.com/user-attachments/assets/59349337-f7fc-4529-9ec7-37090d2527a5">
+
+<img width="1006" alt="image" src="https://github.com/user-attachments/assets/f11ccb5a-bc02-42f5-b32f-53ebd7399868">
+
+<img width="1046" alt="image" src="https://github.com/user-attachments/assets/07a3fb20-0bc2-49d0-90a9-52d2bfc17691">
+
+<img width="1028" alt="image" src="https://github.com/user-attachments/assets/d73abde1-57e9-4fa6-8600-76b6567268ad">
+
+
+
+
+
+
+
+
