@@ -59,8 +59,12 @@ Expose the Pod
 <img width="1077" alt="image" src="https://github.com/user-attachments/assets/ca8535c9-4449-47a3-87b4-f27c513aa0d3">
 <img width="1006" alt="image" src="https://github.com/user-attachments/assets/7e1cf04d-5449-446f-b64c-7bfcd7cd4964">
 
+---
+<img width="985" alt="image" src="https://github.com/user-attachments/assets/7576eb49-1b3b-4774-916e-efc9ad47a215">
 
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/48a35dc6-a3ca-4526-998a-c2082536002a">
 
+<img width="978" alt="image" src="https://github.com/user-attachments/assets/22db2dd1-b457-4c0a-9d88-39a4a383af0f">
 
 
 
