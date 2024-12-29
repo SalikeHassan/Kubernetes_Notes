@@ -57,8 +57,15 @@ az aks create \
 
 ![image](https://github.com/user-attachments/assets/dcb6f1e6-282e-48e1-99af-68d8b89f57f6)
 
+---
+# Azure Resource Access
+<img width="987" alt="image" src="https://github.com/user-attachments/assets/761415ef-6bf5-4d15-8884-6a555d6e7546" />
 
+<img width="993" alt="image" src="https://github.com/user-attachments/assets/d58b0ebd-c9a2-44af-9473-cf9ff25ac43c" />
 
+<img width="1012" alt="image" src="https://github.com/user-attachments/assets/f2420fb1-fc78-4d40-8ee1-fe0532ad28d8" />
+
+<img width="1032" alt="image" src="https://github.com/user-attachments/assets/544f4d6d-9161-451d-8a22-fc86c3c9698f" />
 
 
 
